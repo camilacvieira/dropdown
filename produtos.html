@@ -1,12 +1,18 @@
-<!doctype html>
-<html lang="pt-br">
-
 <head>
 <title>Farmárcia - Produtos</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/home.css">
+  <script src="../assets/javascript/jquery.js"></script>
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   
 </head>
 
@@ -16,19 +22,20 @@
 <!-- inicio dropdown -->
   <div class="row">
 	<div class="col-sm-3">
-	<div class="dropdown show">
-	<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Ordenar por
-	</a>
-	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-		<a class="dropdown-item" href="#">Menor preco</a>
-		<a class="dropdown-item" href="#">Nome</a>
-		<a class="dropdown-item" href="#">Mais recente</a>
-	</div>
-	</div>
+	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Ordenar por 
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Menor preco</a>
+    <a class="dropdown-item" href="#">Nome</a>
+    <a class="dropdown-item" href="#">Recentes</a>
+  </div>
+</div>
 	</div>
 	</div>
 <!-- fim dropdown -->
+
 <!-- Produtos totais -->
 
     <section class="container destaques">
